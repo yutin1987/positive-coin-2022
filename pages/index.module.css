@@ -66,11 +66,8 @@
 }
 
 .grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
@@ -111,7 +108,7 @@
 @media (max-width: 600px) {
   .grid {
     width: 100%;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
