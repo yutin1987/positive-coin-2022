@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import userKey from '../utils/userKey'
 import styles from './index.module.css'
 
-export default function Index() {
+export default function Virus() {
   return (
     <div className={styles.container}>
       <Head>
