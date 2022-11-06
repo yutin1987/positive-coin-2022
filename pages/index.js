@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './index.module.css'
 
 export default function Index() {
@@ -21,10 +22,12 @@ export default function Index() {
             <h2>使用說明 &rarr;</h2>
             <p>Description...</p>
           </a>
-          <a href="#" className={styles.card}>
-            <h2>感染 @ 感染名稱 &rarr;</h2>
-            <p>Description...</p>
-          </a>
+          <Link href="/viruses" className={styles.card}>
+            <a>
+              <h2>感染 @ 感染名稱 &rarr;</h2>
+              <p>Description...</p>
+            </a>
+          </Link>
           <a href="#" className={styles.card}>
             <h2>購買 Coin &rarr;</h2>
             <p>Description...</p>

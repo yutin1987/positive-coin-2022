@@ -1,0 +1,10 @@
+.logo {
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
